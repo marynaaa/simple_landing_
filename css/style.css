@@ -209,7 +209,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.2px;
-    padding: 5px 36px;
+    padding: 0px 36px;
     font-weight: 700;
     line-height: 150%;
     margin: 10px 0;
@@ -219,13 +219,10 @@ body {
         flex: 1 1 100%;
     }
 }
-@media (max-width: 479px) {
+@media (min-width: 479px) {
     .main-block__button:not(:last-child) {
         margin-right: 10px;
     }
-}
-.main-block__button:not(:last-child) {
-    margin-right: 10px;
 }
 .main-block__button_orange {
     background: #FF7B47;
